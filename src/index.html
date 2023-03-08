@@ -8,35 +8,31 @@
 </head>
 
 <body>
-  <h1>Leaderboard</h1>
-  <div class="container">
-    <section class="score">
-      <div class="score-title">
-        <h2>Recent Score</h2>
-        <button class="refresh">Refresh</button>
+  <section>
+    <h1 id="title">Leaderboard</h1>
+    <div class="main">
+      <div class="recent">
+        <h2>Recent scores</h2>
+        <button id="refresh-btn" type="reset">Refresh</button>
       </div>
-      <ul>
-        <li>Abraham : 32</li>
-        <li>Abraham : 100</li>
-        <li>Abraham : 69</li>
-        <li>Abraham : 54</li>
-        <li>Abraham : 11</li>
-        <li>Abraham : 97</li>
-        <li>Abraham : 34</li>
-      </ul>
-    </section>
+      <div class="add">
+        <h2>Add your score</h2>
+      </div>
+    </div>
+    <div class="scores">
 
-    <section class="score-input">
-      <div class="score-input-title">
-        <h2>Add your Score</h2>
+      <ul class="score-list">
+
+      </ul>
+
+      <div class="form-part">
+        <input type="text" id="user-name" placeholder="Your name"> <br>
+        <input type="text" id="user-score" placeholder="Your score"> <br>
+        <button id="submit-btn" type="submit">submit</button>
       </div>
-      <form>
-        <input type="text" placeholder="Enter your Name">
-        <input type="text" placeholder="Enter your Score">
-        <button type="submit" class="submit">Submit</button>
-      </form>
-    </section>
-  </div>
+    </div>
+
+  </section>
 </body>
 
 </html>
