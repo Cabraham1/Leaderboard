@@ -58,9 +58,10 @@ button {
 }
 
 button:hover {
-    background-color: white;
-      color:  #0c324c;
+  background-color: white;
+  color: #0c324c;
 }
+
 .add h2 {
   font-size: 2.2rem;
   font-weight: 700;
