@@ -34,6 +34,8 @@
 
 -The leaderboard website displays scores submitted by different players. It also allows you to submit your score
 
+![screenshot](./assets/Leaderboard%20and%204%20more%20pages%20-%20Personal%20-%20Microsoft%E2%80%8B%20Edge%203_14_2023%203_28_28%20PM.png)
+
 ## 🛠 Built With <a name="built-with"></a>
 
 - HTML5, Javascript
