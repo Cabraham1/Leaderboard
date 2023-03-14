@@ -14,4 +14,6 @@ refreshbtn.addEventListener('click', () => {
 
 submitbtn.addEventListener('click', () => {
   submitScore();
+  document.getElementById('user-name').value = '';
+  document.getElementById('user-score').value = '';
 });
